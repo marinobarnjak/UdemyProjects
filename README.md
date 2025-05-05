@@ -6,7 +6,7 @@ The course is still in progress, and I will continue to add more projects as I c
 
 ## 📁 Projects Included
 
-1. **Color Flipper** – A simple project that generates random background colors.
+1. **Commentsr** – A simple comment management app built with Express and EJS. Users can add, view, edit, and list comments.
 2. **Counter App** – A basic interactive counter built with JavaScript.
 3. **Review Slider** – A small review carousel with dynamic content display.
 
