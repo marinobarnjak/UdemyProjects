@@ -1,31 +1,31 @@
 # Udemy Projects – The Web Developer Bootcamp 2025
 
-This repository contains mini projects I have built while following the Udemy course **"The Web Developer Bootcamp 2025"** by Colt Steele.
+This repository contains a collection of mini-projects completed as part of the Udemy course **"The Web Developer Bootcamp 2025"** by Colt Steele.
 
-The course is still in progress, and I will continue to add more projects as I complete new sections.
+The course is still in progress, and more projects will be added as I advance through the material.
 
 ## 📁 Projects Included
 
-1. **Commentsr** – A simple comment management app built with Express and EJS. Users can add, view, edit, and list comments.
-2. **MuseumCandy** – A responsive landing page for the fictional “Museum of Candy”, built with HTML, CSS, and Bootstrap..
-3. **Review Slider** – A small review carousel with dynamic content display.
+### 🔸 Comments App  
+A simple comment management app built with Express and EJS. Users can add, view, edit, and list comments — demonstrating basic CRUD operations and dynamic routing.
 
-More projects will be added as I progress through the course.
+### 🔸 Museum of Candy  
+A responsive landing page for the fictional “Museum of Candy”, built with HTML, CSS, and Bootstrap. Designed to showcase modern layout techniques and UI design principles.
 
-## 🛠️ Technologies Used
+### 🔸 ScoreKeeper  
+A dynamic two-player scorekeeping app with win tracking, name input, and random opponent API integration. Built with HTML, CSS, JavaScript, and Bulma.
 
-- HTML  
-- CSS  
+## 🛠️ Common Technologies Used
+
+- HTML / CSS  
 - JavaScript  
-
-## 🧠 Learning Goals
-
-These projects are focused on building strong fundamentals in:
+- Express.js / Node.js  
+- EJS templating  
+- Bootstrap / Bulma  
+- RESTful routing  
 - DOM manipulation  
-- Event handling  
-- Responsive layout  
-- JavaScript interactivity
+- Async/Await with fetch
 
 ---
 
-Feel free to explore the code and see how each project was implemented. This repo serves as a personal log of my progress as I grow as a front-end developer.
+> These projects reflect my ongoing progress as I develop my front-end and full-stack development skills through hands-on practice.
