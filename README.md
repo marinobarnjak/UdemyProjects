@@ -7,7 +7,7 @@ The course is still in progress, and I will continue to add more projects as I c
 ## 📁 Projects Included
 
 1. **Commentsr** – A simple comment management app built with Express and EJS. Users can add, view, edit, and list comments.
-2. **Counter App** – A basic interactive counter built with JavaScript.
+2. **MuseumCandy** – A responsive landing page for the fictional “Museum of Candy”, built with HTML, CSS, and Bootstrap..
 3. **Review Slider** – A small review carousel with dynamic content display.
 
 More projects will be added as I progress through the course.
