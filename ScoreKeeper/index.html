@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Score Keeper </title>
+</head>
+<body>
+
+
+<section class="section">
+    <div class="container">
+        <div class="columns">
+             <!-- tablica  -->
+            <div class="column is-one-third">
+              <div class="card has-background-light">
+                  <header>
+                    <!-- header -->
+                  </header>
+
+                  <table id="scoreTable" class="table is-bordered is-fullwidth">
+                    <thead>
+                      <tr>
+                        <th>Player</th>
+                        <th>Number of wins</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><span id="rowPlayer1"></span></td>
+                        <td id="p1Wins"></td>
+                      </tr>
+                      <tr>
+                          <td><span id="rowPlayer2"></span></td>
+                        <td id="p2Wins"></td>
+                      </tr>
+                    </tbody>
+                  </table> 
+
+                  <div class="card-content">
+                    <button id="userBTN" class="button is-info is-outlined">Random opponent</button>
+                    <button id="btnTable" class="button is-link is-active">New players</button>
+                        </div>
+                        
+                        
+                      <div class="content">
+                          <footer class="card-footer">
+                            <p>Click the button to get a random opponent</p>
+                          </footer>
+                  </div>
+                  
+                  </div>
+              </div>
+          
+
+
+            <!-- igra -->
+            <div class="column is-one-third is-half">
+                    <div class="card">
+                        <header>
+                          <form id="formName">
+                            <div class="field is-grouped">
+                                <p class="control is-expanded">
+                                  <input id="inputName" class="input" type="text" placeholder="username">
+                                </p>
+                                <p class="control">
+                                  
+                                  <button class="button is-info">
+                                    Submit
+                                  </button>
+                                  
+                                </p>
+                              </form>
+                              </div>
+                        </header>
+                        <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img
+                            src="slike/pingpong.avif"
+                            alt="Ping pong"
+                            />
+                        </figure>
+                        </div>
+                        <div class="card-content">
+                            <h1 id="rezultat"><span id="p1Display">0</span> - <span id="p2Display">0</span></h1>
+
+                            <label for="winningScore" class="label is-large is-inline">Playing To</label>
+
+                            <div class="select is-rounded">
+                                
+                                <select name="Winning Score" id="winningScore">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                              </div>
+                           
+                            <div class="content">
+                                <footer class="card-footer">
+                                    <a href="#" class="card-footer-item"><div id="p1Button"></div></a>
+                                    <a href="#" class="card-footer-item"> <div id="p2Button"></div></a> 
+                                    <a href="#" class="card-footer-item"><div id="reset">New game</div></a>
+                                </footer>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="is-4 is-offset-8">
+                  <form>
+                    
+                  </form>
+                </div>
+            </div>
+       </div> <!--  container -->
+</section>
+
+<script src="app.js"></script>
+
+
+</body>
+</html>
