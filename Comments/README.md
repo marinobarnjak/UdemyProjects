@@ -23,7 +23,7 @@ This project is a basic comment management web application built as part of the 
 
 comments/
 ├── index.js # Main Express server logic  
-├── views/  
+├── views/comments    
 │ ├── index.ejs # List all comments  
 │ ├── new.ejs # Form to add a comment  
 │ ├── show.ejs # View one comment  
