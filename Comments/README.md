@@ -22,12 +22,12 @@ This project is a basic comment management web application built as part of the 
 ## 🗃️ Structure
 
 comments/
-├── index.js # Main Express server logic
-├── views/
-│ ├── index.ejs # List all comments
-│ ├── new.ejs # Form to add a comment
-│ ├── show.ejs # View one comment
-│ └── edit.ejs # Edit a comment
+├── index.js # Main Express server logic  
+├── views/  
+│ ├── index.ejs # List all comments  
+│ ├── new.ejs # Form to add a comment  
+│ ├── show.ejs # View one comment  
+│ └── edit.ejs # Edit a comment  
 
 
 ## ▶️ Usage
