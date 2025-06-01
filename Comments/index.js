@@ -33,7 +33,7 @@ const comments = [
     }
 ];
 
-app.get('/comments', (req, res)=>{
+app.get('/', (req, res)=>{
     res.render('comments/index.ejs', { comments })
 })
 
