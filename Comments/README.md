@@ -2,7 +2,7 @@
 
 This project is a basic comment management web application built as part of the *Web Developer Bootcamp 2025* course.
 
-## 📌 Features
+## Features
 
 - View all comments  
 - Add new comments  
@@ -11,7 +11,7 @@ This project is a basic comment management web application built as part of the 
 - Server-side routing and form handling  
 - In-memory data storage using an array  
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Node.js  
 - Express.js  
@@ -19,7 +19,7 @@ This project is a basic comment management web application built as part of the 
 - Bootstrap (for simple styling)  
 - Method-Override (to enable PUT/PATCH in forms)
 
-## 🗃️ Structure
+## Structure
 
 comments/
 ├── index.js # Main Express server logic  
@@ -30,7 +30,7 @@ comments/
 │ └── edit.ejs # Edit a comment  
 
 
-## ▶️ Usage
+## Usage
 
 1. Run `npm install` to install dependencies  
 2. Run `node index.js`  
