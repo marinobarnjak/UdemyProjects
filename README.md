@@ -6,13 +6,13 @@ The course is still in progress, and more projects will be added as I advance th
 
 ## 📁 Projects Included
 
-### 🔸 Comments App  
+### Comments App  
 A simple comment management app built with Express and EJS. Users can add, view, edit, and list comments — demonstrating basic CRUD operations and dynamic routing.
 
-### 🔸 Museum of Candy  
+### Museum of Candy  
 A responsive landing page for the fictional “Museum of Candy”, built with HTML, CSS, and Bootstrap. Designed to showcase modern layout techniques and UI design principles.
 
-### 🔸 ScoreKeeper  
+### ScoreKeeper  
 A dynamic two-player scorekeeping app with win tracking, name input, and random opponent API integration. Built with HTML, CSS, JavaScript, and Bulma.
 
 ## 🛠️ Common Technologies Used
