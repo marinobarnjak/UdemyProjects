@@ -2,7 +2,7 @@
 
 This is a fully functional 2-player scorekeeping app created as part of the *Web Developer Bootcamp 2025*. It allows players to set custom names, track scores up to a selected value, and even generate a random opponent using an external API.
 
-## 📌 Features
+## Features
 
 - Two-player interactive score tracking
 - Set target score limit (1–10)
@@ -12,7 +12,7 @@ This is a fully functional 2-player scorekeeping app created as part of the *Web
 - Resets and new match setup functionality
 - Clean responsive layout using Bulma CSS
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5  
 - CSS3  
@@ -20,7 +20,7 @@ This is a fully functional 2-player scorekeeping app created as part of the *Web
 - [Bulma](https://bulma.io/) CSS framework  
 - [API Ninjas](https://api-ninjas.com/api/randomuser) – for fetching random opponent names
 
-## 🗃️ Structure
+## Structure
 
 ScoreKeeper/
 ├── index.html # App interface  
@@ -29,7 +29,7 @@ ScoreKeeper/
 ├── slike/ # Contains image used in the app (pingpong.avif)  
 
 
-## ▶️ Usage
+## Usage
 
 1. Open `index.html` in a browser
 2. Enter your name and submit
@@ -38,7 +38,7 @@ ScoreKeeper/
 5. Use buttons to increase scores
 6. Reset or start a new game at any time
 
-## 🔍 Learning Highlights
+## Learning Highlights
 
 - DOM manipulation
 - Event handling
